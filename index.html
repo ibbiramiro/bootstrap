@@ -3,17 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Belajar Bootstrap - Modifikasi</title>
+  <title>Belajar Bootstrap CSS</title>
 
   <!-- Link Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    /* Hijau muda untuk ganti bg-success */
-    .bg-hijau-muda {
-      background-color: #b2f2bb; /* warna hijau pastel muda */
-    }
-  </style>
 </head>
 
 <body>
@@ -37,28 +30,22 @@
   <section class="container my-5" id="contoh">
     <h2 class="text-center mb-4">Sistem Grid Bootstrap</h2>
     <div class="row text-center">
-      <div class="col-md-3 mb-3">
+      <div class="col-md-4 mb-3">
         <div class="card p-3 shadow-sm">
           <h4 class="text-primary">Kolom 1</h4>
           <p>Bagian ini akan otomatis menyesuaikan ukuran layar.</p>
         </div>
       </div>
-      <div class="col-md-3 mb-3">
+      <div class="col-md-4 mb-3">
         <div class="card p-3 shadow-sm">
-          <h4 class="bg-hijau-muda p-2 rounded">Kolom 2</h4>
-          <p>Warna kolom ini menggunakan hijau muda khusus.</p>
+          <h4 class="text-success">Kolom 2</h4>
+          <p>Gunakan class <code>.col-md-4</code> untuk grid 3 kolom.</p>
         </div>
       </div>
-      <div class="col-md-3 mb-3">
+      <div class="col-md-4 mb-3">
         <div class="card p-3 shadow-sm">
           <h4 class="text-danger">Kolom 3</h4>
-          <p>Pada HP, semua kolom ini otomatis jadi satu kolom.</p>
-        </div>
-      </div>
-      <div class="col-md-3 mb-3">
-        <div class="card p-3 shadow-sm">
-          <h4 class="text-warning">Kolom 4 (Baru)</h4>
-          <p>Ini kolom tambahan hasil dari tugas modifikasi.</p>
+          <p>Pada HP, semua kolom ini otomatis menjadi satu kolom.</p>
         </div>
       </div>
     </div>
@@ -70,8 +57,6 @@
     <button class="btn btn-success m-2">Tombol Hijau</button>
     <button class="btn btn-warning m-2">Tombol Kuning</button>
     <button class="btn btn-danger m-2">Tombol Merah</button>
-    <!-- Tombol baru -->
-    <button class="btn btn-outline-primary m-2">Tombol Outline Biru</button>
 
     <div class="alert alert-info mt-4" role="alert">
       <strong>Info:</strong> Ini contoh penggunaan komponen Alert!
@@ -80,7 +65,7 @@
 
   <!-- Footer -->
   <footer class="bg-dark text-light text-center py-3">
-    <p>© 2025 Belajar Bootstrap. Modifikasi oleh Siswa Hebat!</p>
+    <p>© 2025 Belajar Bootstrap. Dibuat untuk pembelajaran pemula.</p>
   </footer>
 
   <!-- Bootstrap JS -->
